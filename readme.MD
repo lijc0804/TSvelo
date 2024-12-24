@@ -4,6 +4,7 @@ TSvelo is designed to analyze gene expression trajectories and predict dynamic c
 
 Before running TSvelo, make sure you have the following dependencies installed:
 
+```bash
 conda create -n TSvelo_env python=3.8.19
 pip install pandas==2.0.3 
 pip install anndata==0.9.2
@@ -19,4 +20,3 @@ pip install torchdiffeq==0.2.4
 pip install mygene==3.2.2
 pip install leidenalg==0.10.2
 pip install pygam==0.9.1 
-
