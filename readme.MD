@@ -5,7 +5,7 @@ This is the code page for the paper "TSvelo: Comprehensive RNA velocity inferenc
 
 TSvelo is a comprehensive RNA velocity framework that can jointly model splicing, transcription processes and its regulation network using highly interpretable neural Ordinary Differential Equations (ODEs) with an Expectation-Maximization (EM) solution. TSvelo can precisely capture the transcription-unspliced-spliced 3D dynamics of all genes simultaneously, infer unified latent time shared by genes within single cell, detect key gene regulatory relations and be applied to multi-lineage datasets.
 
-![Image text](https://https://github.com/lijc0804/TSvelo/blob/main/figures/fig1.png)
+![Image text](https://github.com/lijc0804/TSvelo/blob/main/figures/fig1.png)
 
 ## Requirements
 
