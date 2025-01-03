@@ -29,7 +29,9 @@ pip install pygam==0.9.1
 
 TSvelo_run.py provides the demo for runing TSvelo.  TSvelo_analysis.ipynb and TSvelo_branch_analysis.ipynb could visualize results for analyzing datasets with single lineage and multiple lineages, respectively. The package TSvelo can be directly downloaded for usage.
 
-TSvelo need the TF-target annotation from ENCODE and ChEA database, which are also provided in this page. Please decompress the ENCODE TF-target database file firstly after downloading this package. On linux, you can run: 
+
+TSvelo needs the TF-target annotation from ENCODE and ChEA database, which are also provided in this page. Please decompress the ENCODE TF-target database file firstly after downloading this package. On linux, you can run: 
+
 ```
 unzip ENCODE.zip
 ```
