@@ -1,3 +1,8 @@
+# TSvelo
+
+
+TSvelo: Comprehensive RNA velocity inference by jointly modeling splicing, transcription and its regulation network.
+
 TSvelo is designed to analyze gene expression trajectories and predict dynamic changes in gene expression across time. It leverages temporal information from single-cell RNA-seq data to model transitions between cell states and infer underlying biological processes.
 
 ## Requirements
@@ -20,3 +25,10 @@ pip install torchdiffeq==0.2.4
 pip install mygene==3.2.2
 pip install leidenalg==0.10.2
 pip install pygam==0.9.1 
+
+TSvelo_run.py provides the demo for runing TSvelo.  TSvelo_analysis.ipynb and TSvelo_branch_analysis.ipynb could visualize results for analyzing datasets with single lineage and multiple lineages, respectively. The package TSvelo can be directly downloaded for usage.
+
+Please decompress the ENCODE TF-target database file firstly after downloading this package. On linux, you can run: 
+```
+unzip ENCODE.zip
+```
