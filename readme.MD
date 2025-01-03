@@ -1,9 +1,11 @@
 # TSvelo
 
 
-TSvelo: Comprehensive RNA velocity inference by jointly modeling splicing, transcription and its regulation network.
+This is the code page for the paper "TSvelo: Comprehensive RNA velocity inference by jointly modeling splicing, transcription and its regulation network".
 
-TSvelo is designed to analyze gene expression trajectories and predict dynamic changes in gene expression across time. It leverages temporal information from single-cell RNA-seq data to model transitions between cell states and infer underlying biological processes.
+TSvelo is a comprehensive RNA velocity framework that can jointly model splicing, transcription processes and its regulation network using highly interpretable neural Ordinary Differential Equations (ODEs) with an Expectation-Maximization (EM) solution. TSvelo can precisely capture the transcription-unspliced-spliced 3D dynamics of all genes simultaneously, infer unified latent time shared by genes within single cell, detect key gene regulatory relations and be applied to multi-lineage datasets.
+
+![Image text](https://https://github.com/lijc0804/TSvelo/blob/main/figures/fig1.png)
 
 ## Requirements
 
